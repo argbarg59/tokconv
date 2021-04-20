@@ -40,7 +40,7 @@ def index():
     if (url != None):
         links = ttdowner_get(url)
         return json.dumps(links)
-    return 'Welcome to the tiktok downloader api by gamesmodplus (V1). The only param is url. Use this api to get the watermark, no watermark, and audio downloads for your tiktok url.'
+    return 'visit toksaver.com to use the tiktok downloader'
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
